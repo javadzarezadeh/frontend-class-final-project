@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link type="text/css" rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="../jQuery/jquery-ui-1.11.4/jquery-ui.theme.css" />
+  <link rel="stylesheet" href="../jQuery/jquery-ui-1.11.4/jquery-ui.structure.css" />
+  <script type="text/javascript" src="../jQuery/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="../jQuery/jquery-ui-1.11.4/jquery-ui.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Infinite Songs</h1>
+    <div>
+      <div class="tabBoxes">Home</div>
+      <div class="tabBoxes">Music</div>
+      <div class="tabBoxes">Video</div>
+      <div class="tabBoxes">Contact us</div>
+    </div>
+  </header>
+  <div id="newest">
+    <h3>Newest</h3>
+    <div class="songCover">
+      <img src="../img/sina%20hejazi%20-%20roya.jpg" />
+      <div class="songDescription">
+        <p>رویا</p>
+        <p>سینا حجازی</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/10-Sina_Hejazi_Roya.mp3" />
+      </div>
+    </div>
+    <div class="songCover">
+      <img src="../img/daal%20band%20-%20dancing%20my%20song.jpg" />
+      <div class="songDescription">
+        <p>Dancing My Song</p>
+        <p>Daal Band</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/Daal%20Ensemble%20-%20Dancing%20My%20Song.mp3" />
+      </div>
+    </div>
+    <div class="songCover">
+      <img src="../img/circo%20cafe%20-%20shero%20naghash.jpg" />
+      <div class="songDescription">
+        <p>شعر و نقاش</p>
+        <p>سیرکوکافه</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/3-Sher%20O%20Naghash.mp3" />
+      </div>
+    </div>
+  </div>
+  <div id="trending" style="background: url('../img/1.jpg') ; width: 100%; height: 400px; background-size: cover ;background-position: 50% 100%" data-music-src-trending="../music/12-Pallett_Shahre_Man_Bekhand.mp3"></div>
+  <!-- <div id="trendingCover" style="background-color: rgba(46, 82, 140, 0.7); width: 100%; height: 400px; position: absolute; margin-top: -400px;"></div> -->
+  <div id=hottest>
+    <h3>Hottest</h3>
+    <div class="songCover">
+      <img src="../img/shahrzad%20-%20ghafas.jpg" />
+      <div class="songDescription">
+        <p>قفس</p>
+        <p>شهرزاد</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/Shahrzad%20-%20Ghafas.mp3" />
+      </div>
+    </div>
+    <div class="songCover">
+      <img src="../img/siamak%20abbasi%20-%20eshghe%20amigh.jpg" />
+      <div class="songDescription">
+        <p>عشق عمیق</p>
+        <p>سیامک عباسی</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/Siamak%20Abbasi%20-%20Eshghe%20Amigh.mp3" />
+      </div>
+    </div>
+    <div class="songCover">
+      <img src="../img/rastaak%20-%20daneshgah.jpg" />
+      <div class="songDescription">
+        <p>دانشگاه</p>
+        <p>رستاک</p>
+        <img src="../img/23_Play-1281.png" width="50px" height="auto" class="playIcon" data-music-src="../music/Rastaak%20-%20Daneshgah.mp3" />
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>
+      Designed by
+      <span title="j.zarezadeh@idcorp.ir" style="cursor: help;">Javad Zarezadeh</span>
+      at
+      <a href="http://www.idcorp.ir">Infinity Design Co.</a>
+    </p>
+  </footer>
+  <div id="musicPlayer"></div>
+
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
